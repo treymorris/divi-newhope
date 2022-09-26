@@ -1,0 +1,692 @@
+# Copyright (C) 2022 Give - Divi Add-on
+# This file is distributed under the same license as the Give - Divi Add-on package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Give - Divi Add-on\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: GiveWP <info@givewp.com>\n"
+"Report-Msgid-Bugs-To: https://github.com/impress-org/give-divi/issues/new\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/Divi/Repositories/Forms.php:48
+msgid "Full form"
+msgstr ""
+
+#: src/Divi/Repositories/Forms.php:49
+msgid "Modal"
+msgstr ""
+
+#: src/Divi/Repositories/Forms.php:50
+msgid "Reveal"
+msgstr ""
+
+#: src/Divi/Repositories/Forms.php:51
+msgid "One Button Launch"
+msgstr ""
+
+#: src/Divi/Routes/Endpoint.php:29
+msgid "You dont have the right permissions to use Give Divi Add-on"
+msgstr ""
+
+#: src/Divi/Routes/RenderDonationForm.php:71, src/Divi/Routes/RenderFormGoal.php:67
+msgid "Donation Form id"
+msgstr ""
+
+#: src/Divi/Routes/RenderDonationForm.php:75
+msgid "Donation Form  display style"
+msgstr ""
+
+#: src/Divi/Routes/RenderDonationForm.php:79
+msgid "Show Donation Form title"
+msgstr ""
+
+#: src/Divi/Routes/RenderDonationForm.php:83
+msgid "Show Donation Form goal"
+msgstr ""
+
+#: src/Divi/Routes/RenderDonationHistory.php:82, src/Divi/Modules/DonationHistory/Module.php:54
+msgid "Show Donation ID"
+msgstr ""
+
+#: src/Divi/Routes/RenderDonationHistory.php:86, src/Divi/Modules/DonationHistory/Module.php:65
+msgid "Show Date"
+msgstr ""
+
+#: src/Divi/Routes/RenderDonationHistory.php:90, src/Divi/Modules/DonationHistory/Module.php:76
+msgid "Show Donor"
+msgstr ""
+
+#: src/Divi/Routes/RenderDonationHistory.php:94, src/Divi/Modules/DonationHistory/Module.php:87
+msgid "Show Amount"
+msgstr ""
+
+#: src/Divi/Routes/RenderDonationHistory.php:98, src/Divi/Modules/DonationHistory/Module.php:98
+msgid "Show Payment Status"
+msgstr ""
+
+#: src/Divi/Routes/RenderDonationHistory.php:102, src/Divi/Modules/DonationHistory/Module.php:109
+msgid "Show Payment Method"
+msgstr ""
+
+#: src/Divi/Routes/RenderDonationReceipt.php:75, src/Divi/Modules/DonationReceipt/Module.php:131
+msgid "You are missing the donation id to view this donation receipt."
+msgstr ""
+
+#: src/Divi/Routes/RenderDonationReceipt.php:100, src/Divi/Modules/DonationReceipt/Module.php:72
+msgid "Display donor"
+msgstr ""
+
+#: src/Divi/Routes/RenderDonationReceipt.php:104, src/Divi/Modules/DonationReceipt/Module.php:79
+msgid "Display total"
+msgstr ""
+
+#: src/Divi/Routes/RenderDonationReceipt.php:108, src/Divi/Modules/DonationReceipt/Module.php:86
+msgid "Display date"
+msgstr ""
+
+#: src/Divi/Routes/RenderDonationReceipt.php:112, src/Divi/Modules/DonationReceipt/Module.php:93, src/Divi/Modules/DonationReceipt/Module.php:100
+msgid "Display payment method"
+msgstr ""
+
+#: src/Divi/Routes/RenderDonationReceipt.php:116
+msgid "Display payment id"
+msgstr ""
+
+#: src/Divi/Routes/RenderDonationReceipt.php:120, src/Divi/Modules/DonationReceipt/Module.php:107
+msgid "Display payment status"
+msgstr ""
+
+#: src/Divi/Routes/RenderDonationReceipt.php:124, src/Divi/Modules/DonationReceipt/Module.php:114
+msgid "Display company name"
+msgstr ""
+
+#: src/Divi/Routes/RenderDonationReceipt.php:128, src/Divi/Modules/DonationReceipt/Module.php:121
+msgid "Display status notice"
+msgstr ""
+
+#: src/Divi/Routes/RenderDonationReceipt.php:132, src/Divi/Modules/DonationReceipt/Module.php:128
+msgid "Error notice text"
+msgstr ""
+
+#: src/Divi/Routes/RenderDonorWall.php:140, src/Divi/Modules/DonorWall/Module.php:34
+msgid "Donors per page"
+msgstr ""
+
+#: src/Divi/Routes/RenderDonorWall.php:144, src/Divi/Modules/DonorWall/Module.php:46
+msgid "Donor IDs"
+msgstr ""
+
+#: src/Divi/Routes/RenderDonorWall.php:148, src/Divi/Modules/DonorWall/Module.php:51
+msgid "Form ID"
+msgstr ""
+
+#: src/Divi/Routes/RenderDonorWall.php:152, src/Divi/Routes/RenderFormGrid.php:149, src/Divi/Modules/DonorWall/Module.php:57
+msgid "Order By"
+msgstr ""
+
+#: src/Divi/Routes/RenderDonorWall.php:156, src/Divi/Routes/RenderFormGrid.php:153, src/Divi/Modules/DonorWall/Module.php:67, src/Divi/Modules/FormGrid/Module.php:108
+msgid "Order"
+msgstr ""
+
+#: src/Divi/Routes/RenderDonorWall.php:160, src/Divi/Routes/RenderFormGrid.php:157, src/Divi/Modules/DonorWall/Module.php:77, src/Divi/Modules/FormGrid/Module.php:122
+msgid "Columns"
+msgstr ""
+
+#: src/Divi/Routes/RenderDonorWall.php:164, src/Divi/Modules/DonorWall/Module.php:90
+msgid "Avatar Size"
+msgstr ""
+
+#: src/Divi/Routes/RenderDonorWall.php:168, src/Divi/Modules/DonorWall/Module.php:102
+msgid "Show Avatar"
+msgstr ""
+
+#: src/Divi/Routes/RenderDonorWall.php:172, src/Divi/Modules/DonorWall/Module.php:109
+msgid "Show Name"
+msgstr ""
+
+#: src/Divi/Routes/RenderDonorWall.php:176, src/Divi/Modules/DonorWall/Module.php:116
+msgid "Show Company Name"
+msgstr ""
+
+#: src/Divi/Routes/RenderDonorWall.php:180, src/Divi/Modules/DonorWall/Module.php:123
+msgid "Show Total"
+msgstr ""
+
+#: src/Divi/Routes/RenderDonorWall.php:184, src/Divi/Modules/DonorWall/Module.php:130
+msgid "Show Time"
+msgstr ""
+
+#: src/Divi/Routes/RenderDonorWall.php:188, src/Divi/Modules/DonorWall/Module.php:137
+msgid "Show Comments"
+msgstr ""
+
+#: src/Divi/Routes/RenderDonorWall.php:192, src/Divi/Modules/DonorWall/Module.php:144
+msgid "Show Anonymous"
+msgstr ""
+
+#: src/Divi/Routes/RenderDonorWall.php:196
+msgid "Show Only Donors with Comments"
+msgstr ""
+
+#: src/Divi/Routes/RenderDonorWall.php:200, src/Divi/Modules/DonorWall/Module.php:158
+msgid "Comment Length"
+msgstr ""
+
+#: src/Divi/Routes/RenderDonorWall.php:204, src/Divi/Modules/DonorWall/Module.php:170, src/Divi/Modules/DonorWall/Module.php:219
+msgid "Read More Text"
+msgstr ""
+
+#: src/Divi/Routes/RenderDonorWall.php:208, src/Divi/Modules/DonorWall/Module.php:175, src/Divi/Modules/DonorWall/Module.php:223
+msgid "Load More Text"
+msgstr ""
+
+#: src/Divi/Routes/RenderFormGoal.php:71
+msgid "Show Goal Text"
+msgstr ""
+
+#: src/Divi/Routes/RenderFormGoal.php:75
+msgid "Show Goal Bar"
+msgstr ""
+
+#: src/Divi/Routes/RenderFormGrid.php:137, src/Divi/Modules/FormGrid/Module.php:55
+msgid "Forms per page"
+msgstr ""
+
+#: src/Divi/Routes/RenderFormGrid.php:141
+msgid "Forms IDs"
+msgstr ""
+
+#: src/Divi/Routes/RenderFormGrid.php:145
+msgid "Exclude Forms IDs"
+msgstr ""
+
+#: src/Divi/Routes/RenderFormGrid.php:161, src/Divi/Routes/RenderMultiFormGoal.php:106, src/Divi/Routes/RenderTotals.php:95, src/Divi/Modules/FormGrid/Module.php:139, src/Divi/Modules/MultiFormGoal/Module.php:71, src/Divi/Modules/Totals/Module.php:62
+msgid "Categories"
+msgstr ""
+
+#: src/Divi/Routes/RenderFormGrid.php:165, src/Divi/Routes/RenderMultiFormGoal.php:102, src/Divi/Routes/RenderTotals.php:99, src/Divi/Modules/FormGrid/Module.php:149, src/Divi/Modules/MultiFormGoal/Module.php:61, src/Divi/Modules/Totals/Module.php:68
+msgid "Tags"
+msgstr ""
+
+#: src/Divi/Routes/RenderFormGrid.php:169, src/Divi/Modules/FormGrid/Module.php:159
+msgid "Show Title"
+msgstr ""
+
+#: src/Divi/Routes/RenderFormGrid.php:173, src/Divi/Modules/FormGrid/Module.php:167
+msgid "Show Goal"
+msgstr ""
+
+#: src/Divi/Routes/RenderFormGrid.php:177, src/Divi/Modules/FormGrid/Module.php:178
+msgid "Show Excerpt"
+msgstr ""
+
+#: src/Divi/Routes/RenderFormGrid.php:181, src/Divi/Modules/FormGrid/Module.php:189
+msgid "Show Featured Image"
+msgstr ""
+
+#: src/Divi/Routes/RenderFormGrid.php:185
+msgid "Image Size"
+msgstr ""
+
+#: src/Divi/Routes/RenderFormGrid.php:189
+msgid "Image Height"
+msgstr ""
+
+#: src/Divi/Routes/RenderFormGrid.php:193
+msgid "Excerpt Length"
+msgstr ""
+
+#: src/Divi/Routes/RenderFormGrid.php:197
+msgid "Display Style"
+msgstr ""
+
+#: src/Divi/Routes/RenderFormGrid.php:201, src/Divi/Modules/FormGrid/Module.php:246
+msgid "Status"
+msgstr ""
+
+#: src/Divi/Routes/RenderLoginForm.php:68
+msgid "Enable Redirect"
+msgstr ""
+
+#: src/Divi/Routes/RenderLoginForm.php:72, src/Divi/Modules/LoginForm/Module.php:61
+msgid "Login Redirect URL"
+msgstr ""
+
+#: src/Divi/Routes/RenderLoginForm.php:76
+msgid "logout Redirect URL"
+msgstr ""
+
+#: src/Divi/Routes/RenderMultiFormGoal.php:98, src/Divi/Routes/RenderTotals.php:91, src/Divi/Modules/MultiFormGoal/Module.php:50, src/Divi/Modules/Totals/Module.php:55
+msgid "Donation Form IDs"
+msgstr ""
+
+#: src/Divi/Routes/RenderMultiFormGoal.php:110, src/Divi/Modules/MultiFormGoal/Module.php:81
+msgid "Goal Amount"
+msgstr ""
+
+#: src/Divi/Routes/RenderMultiFormGoal.php:114, src/Divi/Modules/MultiFormGoal/Module.php:91
+msgid "End Date"
+msgstr ""
+
+#: src/Divi/Routes/RenderMultiFormGoal.php:118, src/Divi/Modules/MultiFormGoal/Module.php:98
+msgid "Color"
+msgstr ""
+
+#: src/Divi/Routes/RenderMultiFormGoal.php:122, src/Divi/Modules/MultiFormGoal/Module.php:105
+msgid "Heading Title"
+msgstr ""
+
+#: src/Divi/Routes/RenderMultiFormGoal.php:126, src/Divi/Modules/MultiFormGoal/Module.php:115
+msgid "Featured Image of the Card"
+msgstr ""
+
+#: src/Divi/Routes/RenderMultiFormGoal.php:130, src/Divi/Modules/MultiFormGoal/Module.php:122
+msgid "Summary"
+msgstr ""
+
+#: src/Divi/Routes/RenderRegistrationForm.php:78
+msgid "Register Redirect URL"
+msgstr ""
+
+#: src/Divi/Routes/RenderSubscriptionTable.php:88, src/Divi/Modules/SubscriptionsTable/Module.php:55
+msgid "Show Status"
+msgstr ""
+
+#: src/Divi/Routes/RenderSubscriptionTable.php:92, src/Divi/Modules/SubscriptionsTable/Module.php:62
+msgid "Show Renewal Date"
+msgstr ""
+
+#: src/Divi/Routes/RenderSubscriptionTable.php:96, src/Divi/Modules/SubscriptionsTable/Module.php:69
+msgid "Show Progress"
+msgstr ""
+
+#: src/Divi/Routes/RenderSubscriptionTable.php:100, src/Divi/Modules/SubscriptionsTable/Module.php:76
+msgid "Show Start Date"
+msgstr ""
+
+#: src/Divi/Routes/RenderSubscriptionTable.php:104, src/Divi/Modules/SubscriptionsTable/Module.php:83
+msgid "Show End Date"
+msgstr ""
+
+#: src/Divi/Routes/RenderSubscriptionTable.php:108, src/Divi/Modules/SubscriptionsTable/Module.php:90
+msgid "Show Subscriptions per page"
+msgstr ""
+
+#: src/Divi/Routes/RenderSubscriptionTable.php:112, src/Divi/Modules/SubscriptionsTable/Module.php:96
+msgid "Pagination Type"
+msgstr ""
+
+#: src/Divi/Routes/RenderTotals.php:60, src/Divi/Modules/Totals/Module.php:89, src/Divi/Modules/Totals/Module.php:126
+msgid "Donate Now"
+msgstr ""
+
+#: src/Divi/Routes/RenderTotals.php:87, src/Divi/Modules/Totals/Module.php:49
+msgid "Total Goal"
+msgstr ""
+
+#: src/Divi/Routes/RenderTotals.php:103, src/Divi/Modules/Totals/Module.php:74
+msgid "Message"
+msgstr ""
+
+#: src/Divi/Routes/RenderTotals.php:107, src/Divi/Modules/Totals/Module.php:80
+msgid "Link"
+msgstr ""
+
+#: src/Divi/Routes/RenderTotals.php:111, src/Divi/Modules/Totals/Module.php:86
+msgid "Link Text"
+msgstr ""
+
+#: src/Divi/Routes/RenderTotals.php:115, src/Divi/Modules/Totals/Module.php:92
+msgid "Show progress bar"
+msgstr ""
+
+#: src/Divi/Modules/DonationForm/Module.php:40
+msgid "Give Donation Form"
+msgstr ""
+
+#: src/Divi/Modules/DonationForm/Module.php:68, src/Divi/Modules/FormGoal/Module.php:66
+msgid "Select Donation form"
+msgstr ""
+
+#: src/Divi/Modules/DonationForm/Module.php:75
+msgid "Donation form format"
+msgstr ""
+
+#: src/Divi/Modules/DonationForm/Module.php:85
+msgid "Display form title"
+msgstr ""
+
+#: src/Divi/Modules/DonationForm/Module.php:95
+msgid "Display Donation goal"
+msgstr ""
+
+#: src/Divi/Modules/DonationHistory/Module.php:42
+msgid "Give Donation History"
+msgstr ""
+
+#: src/Divi/Modules/DonationHistory/Module.php:59
+msgid "Choose if you want to display the column with the ID of the donation."
+msgstr ""
+
+#: src/Divi/Modules/DonationHistory/Module.php:70
+msgid "Choose if you want to display the column with the date the donation was made."
+msgstr ""
+
+#: src/Divi/Modules/DonationHistory/Module.php:81
+msgid "Choose if you want to display the column with the donor’s full name."
+msgstr ""
+
+#: src/Divi/Modules/DonationHistory/Module.php:92
+msgid "Choose if you want to display the column with the donation amount."
+msgstr ""
+
+#: src/Divi/Modules/DonationHistory/Module.php:103
+msgid "Choose if you want to display the column with the payment status of the donation."
+msgstr ""
+
+#: src/Divi/Modules/DonationHistory/Module.php:114
+msgid "Choose if you want to display the column with the payment method the donation was made with."
+msgstr ""
+
+#: src/Divi/Modules/DonationReceipt/Module.php:42
+msgid "Give Donation Receipt"
+msgstr ""
+
+#: src/Divi/Modules/DonorWall/Module.php:22
+msgid "Give Donor wall"
+msgstr ""
+
+#: src/Divi/Modules/DonorWall/Module.php:61, src/Divi/Modules/FormGrid/Module.php:112
+msgid "Descending"
+msgstr ""
+
+#: src/Divi/Modules/DonorWall/Module.php:62, src/Divi/Modules/FormGrid/Module.php:113
+msgid "Ascending"
+msgstr ""
+
+#: src/Divi/Modules/DonorWall/Module.php:71
+msgid "Donation Amount"
+msgstr ""
+
+#: src/Divi/Modules/DonorWall/Module.php:72
+msgid "Date Created"
+msgstr ""
+
+#: src/Divi/Modules/DonorWall/Module.php:81, src/Divi/Modules/FormGrid/Module.php:126
+msgid "Best Fit"
+msgstr ""
+
+#: src/Divi/Modules/DonorWall/Module.php:151
+msgid "Only Donors with Comments"
+msgstr ""
+
+#: src/Divi/Modules/FormGoal/Module.php:51
+msgid "Give Form Goal"
+msgstr ""
+
+#: src/Divi/Modules/FormGoal/Module.php:69
+msgid "Select form"
+msgstr ""
+
+#: src/Divi/Modules/FormGoal/Module.php:72
+msgid "Show text"
+msgstr ""
+
+#: src/Divi/Modules/FormGoal/Module.php:82
+msgid "Show bar"
+msgstr ""
+
+#: src/Divi/Modules/FormGrid/Module.php:41
+msgid "Give Form Grid"
+msgstr ""
+
+#: src/Divi/Modules/FormGrid/Module.php:65
+msgid "Shows how many forms will display per page. Pagination controls will be visible if more forms exist"
+msgstr ""
+
+#: src/Divi/Modules/FormGrid/Module.php:71
+msgid "Forms"
+msgstr ""
+
+#: src/Divi/Modules/FormGrid/Module.php:76
+msgid "Show only selected forms. By default, all forms appear on the grid. A list of form will cause the grid to include only those forms, default “All Forms”"
+msgstr ""
+
+#: src/Divi/Modules/FormGrid/Module.php:82
+msgid "Exclude Forms"
+msgstr ""
+
+#: src/Divi/Modules/FormGrid/Module.php:87
+msgid "Exclude one or more forms from the grid. A list of forms will cause the grid to exclude only those forms."
+msgstr ""
+
+#: src/Divi/Modules/FormGrid/Module.php:93
+msgid "Order by"
+msgstr ""
+
+#: src/Divi/Modules/FormGrid/Module.php:97
+msgid "Date"
+msgstr ""
+
+#: src/Divi/Modules/FormGrid/Module.php:98
+msgid "Title"
+msgstr ""
+
+#: src/Divi/Modules/FormGrid/Module.php:99
+msgid "Amount Donated"
+msgstr ""
+
+#: src/Divi/Modules/FormGrid/Module.php:100
+msgid "Number Donations"
+msgstr ""
+
+#: src/Divi/Modules/FormGrid/Module.php:101
+msgid "Menu order"
+msgstr ""
+
+#: src/Divi/Modules/FormGrid/Module.php:102
+msgid "Closest to goal"
+msgstr ""
+
+#: src/Divi/Modules/FormGrid/Module.php:105
+msgid "Choose the parameters by which the forms appear."
+msgstr ""
+
+#: src/Divi/Modules/FormGrid/Module.php:116
+msgid "Choose the order in which the donors appear, according to the Order by choice."
+msgstr ""
+
+#: src/Divi/Modules/FormGrid/Module.php:133
+msgid "Set the number of columns you would like to display in your grid."
+msgstr ""
+
+#: src/Divi/Modules/FormGrid/Module.php:143, src/Divi/Modules/MultiFormGoal/Module.php:75
+msgid "If you have categories enabled in GiveWP, you can list the category IDs that you want displayed in this grid. A comma-separated list of form category IDs will cause the grid to include only forms from those categories."
+msgstr ""
+
+#: src/Divi/Modules/FormGrid/Module.php:153, src/Divi/Modules/MultiFormGoal/Module.php:65
+msgid "If you have tags enabled in GiveWP, you can list the category IDs that you want displayed in this grid. A comma-separated list of form tag IDs will cause the grid to include only forms with those tags."
+msgstr ""
+
+#: src/Divi/Modules/FormGrid/Module.php:164
+msgid "This enables/disables display of the title in the form."
+msgstr ""
+
+#: src/Divi/Modules/FormGrid/Module.php:172
+msgid "This shows the progress bar of the forms, if a goal has been enabled in the form."
+msgstr ""
+
+#: src/Divi/Modules/FormGrid/Module.php:183
+msgid "This enables/disables display of the form content in the form."
+msgstr ""
+
+#: src/Divi/Modules/FormGrid/Module.php:194
+msgid "Choose if the featured image of the form is shown."
+msgstr ""
+
+#: src/Divi/Modules/FormGrid/Module.php:197
+msgid "Featured Image Size"
+msgstr ""
+
+#: src/Divi/Modules/FormGrid/Module.php:201
+msgid "Small"
+msgstr ""
+
+#: src/Divi/Modules/FormGrid/Module.php:202
+msgid "Medium"
+msgstr ""
+
+#: src/Divi/Modules/FormGrid/Module.php:203
+msgid "Large"
+msgstr ""
+
+#: src/Divi/Modules/FormGrid/Module.php:206
+msgid "This sets the featured image size used within the card display based on your Media Settings. It will not change the actual card display size itself."
+msgstr ""
+
+#: src/Divi/Modules/FormGrid/Module.php:212
+msgid "Featured Image Height"
+msgstr ""
+
+#: src/Divi/Modules/FormGrid/Module.php:216
+msgid "Adjust the height of the featured image."
+msgstr ""
+
+#: src/Divi/Modules/FormGrid/Module.php:219
+msgid "Excerpt Size"
+msgstr ""
+
+#: src/Divi/Modules/FormGrid/Module.php:229
+msgid "You can truncate the exact word-length of the excerpt displayed with this argument."
+msgstr ""
+
+#: src/Divi/Modules/FormGrid/Module.php:235
+msgid "Display Type"
+msgstr ""
+
+#: src/Divi/Modules/FormGrid/Module.php:239
+msgid "Modal reveal"
+msgstr ""
+
+#: src/Divi/Modules/FormGrid/Module.php:240, src/Divi/Modules/LoginForm/Module.php:54, src/Divi/Modules/RegistrationForm/Module.php:62
+msgid "Redirect"
+msgstr ""
+
+#: src/Divi/Modules/FormGrid/Module.php:243
+msgid "Show form as modal window or redirect to the form page."
+msgstr ""
+
+#: src/Divi/Modules/FormGrid/Module.php:250
+msgid "Select status"
+msgstr ""
+
+#: src/Divi/Modules/FormGrid/Module.php:251
+msgid "Open"
+msgstr ""
+
+#: src/Divi/Modules/FormGrid/Module.php:252
+msgid "Closed"
+msgstr ""
+
+#: src/Divi/Modules/LoginForm/Module.php:42
+msgid "Give Login Form"
+msgstr ""
+
+#: src/Divi/Modules/LoginForm/Module.php:70
+msgid "Logout Redirect URL"
+msgstr ""
+
+#: src/Divi/Modules/MultiFormGoal/Module.php:38
+msgid "Give Multi Form Goal"
+msgstr ""
+
+#: src/Divi/Modules/MultiFormGoal/Module.php:55
+msgid "Choose the IDs of the forms you want to display in the multi-form goal."
+msgstr ""
+
+#: src/Divi/Modules/MultiFormGoal/Module.php:85
+msgid "Choose the goal amount to be displayed in the multi-form goal card."
+msgstr ""
+
+#: src/Divi/Modules/MultiFormGoal/Module.php:95
+msgid "Define when the multi-form goal should come to an end"
+msgstr ""
+
+#: src/Divi/Modules/MultiFormGoal/Module.php:102
+msgid "Choose the primary color of the multi-form goal card"
+msgstr ""
+
+#: src/Divi/Modules/MultiFormGoal/Module.php:109
+msgid "Choose the heading to be displayed on the multi-form goal card."
+msgstr ""
+
+#: src/Divi/Modules/MultiFormGoal/Module.php:119
+msgid "Choose the image URL of the multi-form goal card."
+msgstr ""
+
+#: src/Divi/Modules/MultiFormGoal/Module.php:126
+msgid "Choose the summary text placed below the heading title."
+msgstr ""
+
+#: src/Divi/Modules/ProfileEditor/Module.php:42
+msgid "Give Profile Editor"
+msgstr ""
+
+#: src/Divi/Modules/RegistrationForm/Module.php:50
+msgid "Give Registration Form"
+msgstr ""
+
+#: src/Divi/Modules/RegistrationForm/Module.php:69
+msgid "Redirect URL"
+msgstr ""
+
+#: src/Divi/Modules/SubscriptionsTable/Module.php:43
+msgid "Give Subscriptions Table"
+msgstr ""
+
+#: src/Divi/Modules/SubscriptionsTable/Module.php:100
+msgid "Displays Previous and Next buttons"
+msgstr ""
+
+#: src/Divi/Modules/SubscriptionsTable/Module.php:101
+msgid "Displays numbered links to page"
+msgstr ""
+
+#: src/Divi/Modules/Totals/Module.php:37
+msgid "Give Totals"
+msgstr ""
+
+#: src/Divi/Modules/Totals/Module.php:117
+msgid "Hey! We've raised {total} of the {total_goal} we are trying to raise for this campaign!"
+msgstr ""
+
+#: src/Divi/resources/views/admin/notices/divi-inactive-error.php:7, src/Divi/resources/views/admin/notices/give-inactive.php:7, src/Divi/resources/views/admin/notices/give-version-error.php:6
+msgid "Activation Error:"
+msgstr ""
+
+#: src/Divi/resources/views/admin/notices/divi-inactive-error.php:11
+msgid "add-on requires Divi builder to be activated."
+msgstr ""
+
+#: src/Divi/resources/views/admin/notices/give-inactive.php:9, src/Divi/resources/views/admin/notices/give-version-error.php:9
+msgid "You must have"
+msgstr ""
+
+#: src/Divi/resources/views/admin/notices/give-inactive.php:12
+msgid "plugin installed and activated for the %s add-on to activate"
+msgstr ""
+
+#: src/Divi/resources/views/admin/notices/give-version-error.php:11
+msgid "version"
+msgstr ""
+
+#: src/Divi/resources/views/admin/notices/give-version-error.php:14
+msgid "for the %1$s add-on to activate"
+msgstr ""

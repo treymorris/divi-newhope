@@ -12,7 +12,8 @@
 /* =Theme customization starts here
 ------------------------------------------------------- */
 
-/*This code allows user to add text in place of logo in menu settings*/
+/*This code allows user to add the site title and tagline next to logo-- change values in /theme customizer/site identity*/
+/*This will not work if global header is used*/
 #db_title_and_tagline {
 	display: inline;
 	margin-right: 2em !important;
@@ -44,7 +45,7 @@
 	display: none; 
 }
 
-/*this sets background image on events page*/
+/*this sets background image on events calendar page*/
 /*#main-content {
 	background: 
 		radial-gradient(circle at center,rgba(102,133,221,0.37) 0%,rgba(31,31,71,0.81) 53%),

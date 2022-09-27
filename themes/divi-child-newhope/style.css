@@ -46,10 +46,64 @@
 }
 
 /*this sets background image on events calendar page*/
-/*#main-content {
+.tribe-events-view {
 	background: 
-		radial-gradient(circle at center,rgba(102,133,221,0.37) 0%,rgba(31,31,71,0.81) 53%),
+		radial-gradient(circle at center,rgba(102,133,221,0.37) 0%,rgba(31,31,71,0.81) 95%),
 		url(http://new-hope-church.local/wp-content/uploads/2022/09/church-16.jpg);
 	background-size: cover;
 	background-attachment: fixed;
-}*/
+	background-position: center;
+    background-repeat: no-repeat;
+}
+
+.tribe-events-calendar-month__day-date-daynum {
+	color: white !important;
+}
+
+.tribe-events-c-top-bar__datepicker-desktop {
+	color: white !important;
+}
+
+#et-main-area {
+	background: 
+		radial-gradient(circle at center,rgba(102,133,221,0.37) 0%,rgba(31,31,71,0.81) 95%),
+		url(http://new-hope-church.local/wp-content/uploads/2022/09/church-16.jpg);
+	height: 100%;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+    background-repeat: no-repeat;
+  
+}
+
+.tribe-common--breakpoint-medium.tribe-events .tribe-events-calendar-month__header-column-title-desktop {
+	color: white;
+}
+
+.tribe-events-back a {
+	color: white !important;
+}
+
+.tribe-events-notices li {
+	color: white;
+}
+
+.tribe-events-single-event-title  {
+	color: white !important;
+}
+
+.tribe-events-schedule h2, .tribe-events-content p {
+	color: white !important;
+}
+
+.tribe-events-meta-group .tribe-events-single-section-title {
+	color: white !important;
+}
+
+.tribe-events-event-meta dl {
+	color: white !important; 
+}
+
+.tribe-events-single .tribe-events-sub-nav .tribe-events-nav-next a {
+	color: white !important;
+}

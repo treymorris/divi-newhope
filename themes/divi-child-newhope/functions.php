@@ -3,11 +3,9 @@ function my_theme_enqueue_styles() {
     wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
 }
 add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
-
-
-//This code allows user to enter text in place of a logo in menu settings
 add_action('et_html_logo_container', 'db133_add_title_and_tagline');
- 
+
+//This code allows user to enter text in place of a logo in menu settings. This will not work if global header is used
 if (!function_exists('db133_add_title_and_tagline')) {
 	function db133_add_title_and_tagline($content){
 		$logo_regex = '#<img[^>]*?id="logo"[^>]*?/>#';
@@ -51,3 +49,14 @@ if (!function_exists('db133_site_title')) {
 		return apply_filters('db133_site_title', $title);
 	}
 }
+
+//This makes the Video URL field Dynamic
+add_filter('et_builder_get_parent_modules', function($modules){
+foreach ($modules as $module_slug => $module) {
+if($module_slug === 'et_pb_video' && isset($module->fields_unprocessed)){
+$module->fields_unprocessed['src']['dynamic_content'] = 'url';
+$module->fields_unprocessed['src_webm']['dynamic_content'] = 'url';
+}
+}
+return $modules;
+});

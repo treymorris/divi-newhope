@@ -7,103 +7,83 @@
  Template:       Divi
  Version:        1.0.0
 */
- 
- 
+
 /* =Theme customization starts here
 ------------------------------------------------------- */
 
-/*This code allows user to add the site title and tagline next to logo-- change values in /theme customizer/site identity*/
-/*This will not work if global header is used*/
+/*This sets the styling for title and tagline next to logo-- change values in /theme customizer/site identity*/
 #db_title_and_tagline {
-	display: inline;
-	margin-right: 2em !important;
+  display: inline;
+  margin-right: 2em !important;
 }
-#logo { 
-	padding-right: 10px; 
+#logo {
+  padding-right: 10px;
 }
-#logo-text, #logo-tagline { 
-	margin: 0; 
-	padding:0; 
-	display:inline;
-	vertical-align: middle;
+#logo-text,
+#logo-tagline {
+  margin: 0;
+  padding: 0;
+  display: inline;
+  vertical-align: middle;
 }
-#logo-tagline { 
-	opacity: 0.7; 
-	margin-left: 16px; 
-	vertical-align: sub; 
+#logo-tagline {
+  margin-left: 16px;
+  vertical-align: sub;
 }
-@media only screen and (max-width: 767px) { 
-	#logo-tagline { 
-		display: none; 
-	}
+@media only screen and (max-width: 767px) {
+  #logo-tagline {
+    display: none;
+  }
 }
-.et_hide_primary_logo .logo_container { 
-	height: 100% !important; 
-	opacity: 1 !important; 
+.et_hide_primary_logo .logo_container {
+  height: 100% !important;
+  opacity: 1 !important;
 }
-.et_hide_primary_logo .logo_container #logo { 
-	display: none; 
+.et_hide_primary_logo .logo_container #logo {
+  display: none;
 }
 
-/*this sets background image on events calendar page*/
+/*this section sets background image on Events page*/
 .tribe-events-view {
-	background: 
-		radial-gradient(circle at center,rgba(102,133,221,0.37) 0%,rgba(31,31,71,0.81) 95%),
-		url(http://new-hope-church.local/wp-content/uploads/2022/09/church-16.jpg);
-	background-size: cover;
-	background-attachment: fixed;
-	background-position: center;
-    background-repeat: no-repeat;
+  background: radial-gradient(
+      circle at center,
+      rgba(102, 133, 221, 0.37) 0%,
+      rgba(31, 31, 71, 0.41) 95%
+    ),
+    url(http://new-hope-church.local/wp-content/uploads/2022/09/church-07.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
-.tribe-events-calendar-month__day-date-daynum {
-	color: white !important;
+/*This sets the padding on the Latest Sermon Video title on Home page*/
+.et_pb_blog_1 .et_pb_post .entry-title {
+  padding-bottom: 0;
+  padding-top: 1em;
 }
 
-.tribe-events-c-top-bar__datepicker-desktop {
-	color: white !important;
+.et_pb_blog_0 .et_pb_post .entry-title {
+  padding-top: 1em;
+  padding-bottom: 0;
 }
 
-#et-main-area {
-	background: 
-		radial-gradient(circle at center,rgba(102,133,221,0.37) 0%,rgba(31,31,71,0.81) 95%),
-		url(http://new-hope-church.local/wp-content/uploads/2022/09/church-16.jpg);
-	height: 100%;
-	background-size: cover;
-	background-attachment: fixed;
-	background-position: center;
-    background-repeat: no-repeat;
-  
+/*This sets the background image on the donation page*/
+.give-wrap {
+  background: radial-gradient(
+      circle at center,
+      rgba(102, 133, 221, 0.37) 0%,
+      rgba(31, 31, 71, 0.81) 95%
+    ),
+    url(http://new-hope-church.local/wp-content/uploads/2022/09/church-24-1080x675.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-width: 100vw;
 }
 
-.tribe-common--breakpoint-medium.tribe-events .tribe-events-calendar-month__header-column-title-desktop {
-	color: white;
-}
-
-.tribe-events-back a {
-	color: white !important;
-}
-
-.tribe-events-notices li {
-	color: white;
-}
-
-.tribe-events-single-event-title  {
-	color: white !important;
-}
-
-.tribe-events-schedule h2, .tribe-events-content p {
-	color: white !important;
-}
-
-.tribe-events-meta-group .tribe-events-single-section-title {
-	color: white !important;
-}
-
-.tribe-events-event-meta dl {
-	color: white !important; 
-}
-
-.tribe-events-single .tribe-events-sub-nav .tribe-events-nav-next a {
-	color: white !important;
+.et-pb-contact-message {
+  text-align: center;
+  font-size: large;
+  font-weight: bolder;
 }
